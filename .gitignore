@@ -1,0 +1,23 @@
+# Java / Maven
+**/target/
+**/build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+**/application-local.properties
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
